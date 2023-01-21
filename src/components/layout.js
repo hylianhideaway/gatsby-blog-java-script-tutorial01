@@ -1,21 +1,21 @@
 import * as React from 'react'
 import {Link} from 'gatsby'
-
+import  './layout.css' 
 
 /* Page frame component. Hold stuff every page should show, then inserts unique page in */
 const Layout = ({pageTitle,children}) => {
     return (
-        <div>
+        <div className={"container"}>
             {/* Navigation Bar*/}
             <nav>
-                <ul>
-                    <li> <Link to={"/"}>Home</Link></li>
-                    <li> <Link to={"/about"}>About</Link></li>
+                <ul className={"nav-links"}>
+                    <li className={"nav-link-item"}> <Link className={"nav-link-item"} to={"/"}>Home</Link></li>
+                    <li className={"nav-link-item"}> <Link className={"nav-link-item"} to={"/about"}>About</Link></li>
                 </ul>
             </nav>
             {/* Where the content for the child page goes */}
             <main>
-                <h1>{pageTitle}</h1>
+                <h1 className={"heading"}>{pageTitle}</h1>
                 {children}
             </main>
         </div>
