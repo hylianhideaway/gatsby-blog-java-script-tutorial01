@@ -7,13 +7,15 @@
   Gatsby minimal starter
 </h1>
 
-<p style="background-color:tomato;" >
+<div style="background-color:tomato;">
+<p style="color:blue;font-family:verdana;" >
   The purpose of this cite is to build basic familiarity with the Gatsby framework. 
   Note that, usually, I am a Typescript man, though I do know Javascript. With that said, 
   the tutorial I was using was in Javascript, so I stuck with that so I did not have to struggle with
   discrepancies while actually learning the framework. The plan is to implement future sites with Typescript 
   bases React. 
 </p>
+</div>
 
 
 ## 🚀 Quick start
